@@ -1,0 +1,41 @@
+{
+  "matlabVersion": "24.1.0.2537033 (R2024a)",
+  "release": "2024a",
+  "platform": "PCWIN64",
+  "optimizationToolbox": {
+    "Name": "Optimization Toolbox",
+    "Version": "24.1",
+    "Release": "(R2024a)",
+    "Date": "19-Nov-2023"
+  },
+  "fromScratch": true,
+  "example1Checks": 19,
+  "example2Checks": 135,
+  "example1Initializations": 100,
+  "example2SampleSizes": [
+    5,
+    10,
+    20,
+    40,
+    80,
+    160,
+    320,
+    640,
+    1280
+  ],
+  "parallelWorkers": 0,
+  "referenceNumericallyIdentical": [
+    true,
+    true
+  ],
+  "referenceMaxAbsoluteDifference": [
+    0,
+    0
+  ],
+  "referenceNumericValues": [
+    64590,
+    622149
+  ],
+  "wallSeconds": 197.969441,
+  "status": "VERIFICATION_PASS"
+}

@@ -64,8 +64,9 @@ results/
 ```
 
 Running a script again overwrites its corresponding output files. The examples
-save their results in separate folders. The `results/` directory is excluded
-from version control by `.gitignore` and is generated when the scripts run.
+save their results in separate folders. This repository includes the archived
+reference `results/`. Use the verification entry below to recompute in a
+separate `reproduced_results/` folder and retain that reference.
 
 ## Outputs
 
@@ -115,6 +116,80 @@ The Example 1 gain selection uses the analytical strong-monotonicity lower
 bound of approximately 3.618. A sampled symmetric-Jacobian check is saved
 separately as supplementary numerical evidence. Time-dependent plots use the
 slow time `s = alpha*t`; the original time is retained in the MAT file.
+
+## Full-precision verification and fixed version
+
+The authoritative repository is
+[`SichenQian/DRNE-JW`](https://github.com/SichenQian/DRNE-JW). The annotated tag
+[`Automatica-reproducibility-v1`](https://github.com/SichenQian/DRNE-JW/releases/tag/Automatica-reproducibility-v1)
+fixes the source, reference results, and verification evidence:
+
+```sh
+git checkout Automatica-reproducibility-v1
+git rev-parse HEAD
+```
+
+From MATLAB in that checkout, run:
+
+```matlab
+summary = verify_reproduction;
+figures = verify_figure_data;
+```
+
+The entry runs both complete examples, captures a fresh log, and compares
+their numeric/logical MAT fields with the archived reference. Fresh outputs
+go to `reproduced_results/`, preserving `results/`. An alternative folder can
+be supplied to `verify_reproduction(outputFolder)`. The scripts also respect
+`DRNE_RESULTS_DIR` when set; verification restores its previous value on exit.
+Both primary scripts remain self-contained. The verification entry additionally
+uses `compare_numeric_records.m` and `write_full_precision.m`.
+
+| Verification item | Published record in `verification/` |
+| --- | --- |
+| Actual command, MATLAB environment, completion | `reproduction_log.txt`, `verification_summary.json` |
+| Example 1 constants, chosen gains, thresholds and margins | `example1_certificate.txt`, `example1_theorem_audit.csv` |
+| Example 1 realized samples, complete main initial state and 100 additional seeds | `example1_initialization.json`, `example1_certificate.txt` |
+| Example 2 conditions for all nine sample sizes | `example2_certificate.txt`, `example2_theorem_audit.csv` |
+| Monte Carlo counts, independent seed families, coverage and intervals | `statistical_protocol.json` |
+| Fresh outputs versus archived numerical arrays | `reference_comparison.json` |
+| All 11 generated figure panels versus archived figures | `figure_reference_comparison.json` |
+| Manuscript parameters and all nine manuscript panels | `paper_correspondence.json`, `paper_correspondence.md` |
+
+Certificates use 17 significant digits; full arrays remain in the MAT files.
+Any large arrays summarized in a readable certificate are explicitly marked.
+Example 1 records actual `ode15s` options, physical time, state order and the
+integrated initial state. Its private-sample seed is `260826` (`twister`), its
+main initial-state seed is `101`, and its additional seeds are `1001:1100`.
+The distributed flow seeks the fixed-dual proxy equilibrium. The offline
+semidual reference is checked by an original-game best-response residual.
+
+Example 2 records calibration and independent validation seeds separately
+from equilibrium-training and held-out evaluation seeds. Wilson intervals
+use `z = 1.96`. Serial and optional parallel computations use local random
+streams; actual worker counts are recorded. Worker counts and runtime are
+excluded from array comparisons, with all exclusions listed. Comparison
+tolerances and exact-equality results are both reported.
+
+Success ends with `VERIFICATION_PASS`; failed conditions or reference
+comparisons terminate execution. `verification_manifest.json` records the
+inspected manuscript TEX/PDF and figure-source SHA-256 hashes and released
+code/evidence Git blob hashes. The manuscript itself is not an input dependency.
+
+### Interpretation of the certificates
+
+Analytical monotonicity and gain inequalities support the specified proxy-game
+instance. Sampled Jacobian eigenvalues provide supplementary checks. Empirical
+Wasserstein-radius calibration uses the known generating uniform law; measured
+coverage and Wilson intervals are Monte Carlo evidence, not a substitute for
+the theoretical finite-sample assumptions. Strategic-radius sweep points below
+the coverage threshold are sensitivity experiments.
+
+The original robust-game gap at the fixed proxy generally remains positive.
+The record retains the certified approximation bound and its ratio to the
+measured gap, including when the bound is too conservative to be informative.
+The unit-prefactor theoretical slope reference in Fig. 2(a) is distinguished
+from the rigorous envelope with prefactor `c1`. Figure-data comparisons are
+independent of fonts, colors and export metadata.
 
 ## Citation
 

@@ -1,0 +1,67 @@
+Command: summary = verify_reproduction
+MATLAB 24.1.0.2537033 (R2024a)
+Platform PCWIN64
+
+Computing the offline exact DRNE by semidual best responses...
+Integrating the 96-state stiff ODE with ode15s (t_f=2.745e+05)...
+Evaluating the original-game DR Nash gap at 46 raw time points...
+Running 100 additional feasible initial conditions...
+
+Example 1 completed.
+Proxy NE: [0.48127638 0.51307493 0.47308648 0.4894073]
+Reference DRNE: [0.44669192 0.49319252 0.42737617 0.48734098]
+Proxy / reference Nash gaps: 0.000e+00 / 7.772e-16
+Original-game gap at proxy NE: 4.147468e-03
+Analytical / observed monotonicity bounds: 3.617976 / 4.076170
+Terminal normalized error over 100 initializations: 1.230e-03 to 7.502e-03
+Results saved to: D:\Codex\2026-10-12\https-github-com-sichenqian-distributed-bregman\work\DRNE-JW\reproduced_results\example1
+Parallel Computing Toolbox unavailable; using deterministic serial execution with vectorized W2 batches.
+
+Calibrating empirical Uniform-W2 radii and validating coverage...
+  K=   5: radius=0.27239, joint coverage=0.9457
+  K=  10: radius=0.19531, joint coverage=0.9513
+  K=  20: radius=0.14291, joint coverage=0.9483
+  K=  40: radius=0.09746, joint coverage=0.9440
+  K=  80: radius=0.06839, joint coverage=0.9490
+  K= 160: radius=0.05159, joint coverage=0.9540
+  K= 320: radius=0.03458, joint coverage=0.9513
+  K= 640: radius=0.02551, joint coverage=0.9567
+  K=1280: radius=0.01803, joint coverage=0.9597
+
+--- INITIAL THEORY AUDIT (K=40) ---
+certified mu_F 3.982073e+00; observed Jacobian minimum 4.329752e+00 (503 points)
+lambda_2(L)=5.857864e-01, strategic rho/rho_cover=1.0500
+All K-specific theorem audits: PASS (K=[5 10 20 40 80 160 320 640 1280]).
+Running 100 proxy-equilibrium repetitions for each K...
+  K=   5 complete: median held-out gap 1.765952e-02
+  K=  10 complete: median held-out gap 1.275701e-02
+  K=  20 complete: median held-out gap 8.031215e-03
+  K=  40 complete: median held-out gap 5.773064e-03
+  K=  80 complete: median held-out gap 5.040626e-03
+  K= 160 complete: median held-out gap 3.952988e-03
+  K= 320 complete: median held-out gap 3.740062e-03
+  K= 640 complete: median held-out gap 3.423623e-03
+  K=1280 complete: median held-out gap 3.333758e-03
+Computing deterministic population-proxy references...
+  Kref=5000: true SNE gap 3.059606045e-03, proxy residual 2.206e-11
+  Kref=10000: true SNE gap 3.059606045e-03, proxy residual 4.127e-11
+Solving the original DRNE along the strategic-radius path...
+Solving the original DRNE along the exogenous-radius path...
+Solving the 8-by-7 two-budget exact-DRNE map...
+  exogenous multiplier 0.00 complete (1/7 columns).
+  exogenous multiplier 0.25 complete (2/7 columns).
+  exogenous multiplier 0.50 complete (3/7 columns).
+  exogenous multiplier 0.75 complete (4/7 columns).
+  exogenous multiplier 1.00 complete (5/7 columns).
+  exogenous multiplier 1.25 complete (6/7 columns).
+  exogenous multiplier 1.50 complete (7/7 columns).
+Running 100 paired same-design dependence repetitions with 20000 held-out samples each...
+
+Example 2 completed.
+Sample sizes: [5 10 20 40 80 160 320 640 1280]
+Joint coverage range / target: 0.9440 to 0.9597 / 0.9500
+Median held-out SNE gap at K=5 / K=1280: 1.765952e-02 / 3.333758e-03
+Population-proxy reference gap: 3.059606e-03
+Maximum reference-DRNE residual: 1.257e-13
+Results saved to: D:\Codex\2026-10-12\https-github-com-sichenqian-distributed-bregman\work\DRNE-JW\reproduced_results\example2
+VERIFICATION_PASS: Example 1 19 checks; Example 2 135 checks

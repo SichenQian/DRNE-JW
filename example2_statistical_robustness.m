@@ -7,6 +7,9 @@ rng(260827, 'twister');
 scriptDir = fileparts(mfilename('fullpath'));
 if isempty(scriptDir), scriptDir = pwd; end
 outDir = fullfile(scriptDir, 'results', 'example2');
+if ~isempty(getenv('DRNE_RESULTS_DIR'))
+    outDir = fullfile(getenv('DRNE_RESULTS_DIR'), 'example2');
+end
 if ~isfolder(outDir)
     mkdir(outDir);
 end
@@ -914,6 +917,12 @@ results.fixedDualProxyX=lambdaSweepProxyX;
 results.figureFiles=figureFiles;
 results.figureResolutionDpi=figureResolutionDpi;
 results.meaningfulKPlotTicks=meaningfulKTicks;
+results.solverSettings=struct('masterSeed',260827,'generator','twister', ...
+    'referenceSolver','fmincon','referenceAlgorithm','sqp', ...
+    'referenceOptimalityTolerance',5e-10,'referenceStepTolerance',5e-11, ...
+    'referenceConstraintTolerance',1e-11,'referenceBestResponseMaxIterations',220, ...
+    'referenceCostMaxIterations',180,'wilsonZ',1.96, ...
+    'parallelEnabled',useParallel,'parallelWorkers',parallelWorkers);
 save(fullfile(outDir,'example2_results.mat'),'results','-v7.3');
 
 fprintf('\nExample 2 completed.\n');

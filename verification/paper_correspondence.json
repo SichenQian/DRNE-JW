@@ -1,0 +1,146 @@
+{
+  "audited_on": "2026-10-13",
+  "manuscript": {
+    "tex": "autosam.tex",
+    "pdf": "autosam.pdf",
+    "tex_sha256": "cfd069986d755421e3bc71840dd9e21bd135a553fcafe972db3f8776d2b858ce",
+    "pdf_sha256": "cf763b177b07e2db3f2f1ec80bc28a0357d73ad5b04ae899a5675de9ce173115",
+    "pages": 15
+  },
+  "reference_base_commit": "5f62e04a31d9c426531ac54fcc89f6f99ee75e60",
+  "manuscript_mat_to_repository_mat": [
+    {
+      "numericLeaves": 204,
+      "numericValues": 64590,
+      "maxAbsoluteDifference": 0,
+      "maxRelativeDifference": 0,
+      "numericallyIdentical": true,
+      "excludedMetadata": [
+        "root(1).mainOdeRuntimeSeconds"
+      ]
+    },
+    {
+      "numericLeaves": 807,
+      "numericValues": 622149,
+      "maxAbsoluteDifference": 0,
+      "maxRelativeDifference": 0,
+      "numericallyIdentical": true,
+      "excludedMetadata": [
+        "root(1).useParallel",
+        "root(1).parallelWorkers",
+        "root(1).statisticalStudyRuntimeSeconds",
+        "root(1).populationReferenceRuntimeSeconds"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "figure": "1(a)",
+      "manuscript_include": "numerical_simulation/example1_fig1a.eps",
+      "eps_sha256": "cc4fea0871a186932be60f17c422a3f7e4c87d3366f2eca803f0b1a3026623e6",
+      "numerical_figure_reference": "numerical_simulation/example1_fig1a.fig",
+      "numerical_figure_reference_sha256": "1939d063995d583c9c3540cec75e001cf5b8d932c6e0c3876c5dd1153b8cf704",
+      "repository_figure": "results/example1/example1_fig1a.fig",
+      "reference_objects": 12,
+      "exactly_matched_objects": 12,
+      "scientific_data_exact": true
+    },
+    {
+      "figure": "1(b)",
+      "manuscript_include": "numerical_simulation/example1_fig1b.eps",
+      "eps_sha256": "f396f8a59128e802ba2d8fc3770ec292115d9a364b29f7ef26d5a26afcaf80ee",
+      "numerical_figure_reference": "numerical_simulation/example1_fig1b.fig",
+      "numerical_figure_reference_sha256": "78a11a34aab0a178da6c363d81c64fdc48660956167eb62fee450b80af071404",
+      "repository_figure": "results/example1/example1_fig1b.fig",
+      "reference_objects": 3,
+      "exactly_matched_objects": 3,
+      "scientific_data_exact": true
+    },
+    {
+      "figure": "2(a)",
+      "manuscript_include": "numerical_simulation/example1_fig1c.eps",
+      "eps_sha256": "127c542e2d2df84701a12a66d609c6315c8d91e85b9b803beac6612d3c255b70",
+      "numerical_figure_reference": "numerical_simulation/example1_fig1c.fig",
+      "numerical_figure_reference_sha256": "69946f701280a33c8dec3574dccf2d2b4cee84deaecfaff31b9f31e238e383c4",
+      "repository_figure": "results/example1/example1_fig1c.fig",
+      "reference_objects": 104,
+      "exactly_matched_objects": 104,
+      "scientific_data_exact": true
+    },
+    {
+      "figure": "2(b)",
+      "manuscript_include": "numerical_simulation/example1_fig1d.eps",
+      "eps_sha256": "7d2d8d35d5c2d07428209dc81bf9e2a9acdabd78f001e796e17417859e10373e",
+      "numerical_figure_reference": "numerical_simulation/example1_fig1d.fig",
+      "numerical_figure_reference_sha256": "6f5110bd0eccf8f45c520492536de7a54f5532e391cbde24aef4740f225c9bd7",
+      "repository_figure": "results/example1/example1_fig1d.fig",
+      "reference_objects": 2,
+      "exactly_matched_objects": 2,
+      "scientific_data_exact": true
+    },
+    {
+      "figure": "3(a)",
+      "manuscript_include": "numerical_simulation/example2_fig3a.eps",
+      "eps_sha256": "fce17e4c2b633e57dd96f91e8694b9ca114eb7f2368965632de1084605047f85",
+      "numerical_figure_reference": "numerical_simulation/example2_fig3a.fig",
+      "numerical_figure_reference_sha256": "1471152cf01718fe81e74eb546afe2e992dd59d51cb1c735fc5bb0ff2d3b83b7",
+      "repository_figure": "results/example2/example2_fig3a.fig",
+      "reference_objects": 3,
+      "exactly_matched_objects": 3,
+      "scientific_data_exact": true
+    },
+    {
+      "figure": "3(b)",
+      "manuscript_include": "numerical_simulation/example2_fig3b.eps",
+      "eps_sha256": "293d54272db684322c0ef8e514027b2303f678099c866608d3e6282b61bb9c76",
+      "numerical_figure_reference": "numerical_simulation/example2_fig3b.fig",
+      "numerical_figure_reference_sha256": "d9da8676e7cccb9d5566f888a25d4fddc1af312d98b4271055a3a533e8d29822",
+      "repository_figure": "results/example2/example2_fig3b.fig",
+      "reference_objects": 3,
+      "exactly_matched_objects": 2,
+      "scientific_data_exact": true,
+      "presentation_exception": {
+        "type": "errorbar",
+        "x": -250,
+        "y": 0.9506646322466398,
+        "symmetric_error": 0.004605189161317496,
+        "reason": "Extra off-plot single-point helper in the manuscript FIG. The nine K>=5 coverage values, both Wilson error arrays, and the target line match exactly."
+      }
+    },
+    {
+      "figure": "3(c)",
+      "manuscript_include": "numerical_simulation/example2_fig3c.eps",
+      "eps_sha256": "2b50521768f77f0aca60540298ce7bb1a76d43d7f7ca0c79b6f6724180696fa7",
+      "numerical_figure_reference": "numerical_simulation/example2_fig3c.fig",
+      "numerical_figure_reference_sha256": "7f768249893d98a0f814b2c3878d5d3d60178d8fec47f92135ca4f9df2bad843",
+      "repository_figure": "results/example2/example2_fig3c.fig",
+      "reference_objects": 3,
+      "exactly_matched_objects": 3,
+      "scientific_data_exact": true
+    },
+    {
+      "figure": "4(a)",
+      "manuscript_include": "numerical_simulation/example2_fig4a.eps",
+      "eps_sha256": "c1706d872dd34c83564429c212e8a103549670ea44e6320b802c1ded8166de24",
+      "numerical_figure_reference": "numerical_simulation/example2_fig4a.fig",
+      "numerical_figure_reference_sha256": "6ed9958599c492e5b5538482a2bcaddebbad13c77b755a79908ab8ce62ddaffe",
+      "repository_figure": "results/example2/example2_fig4a.fig",
+      "reference_objects": 4,
+      "exactly_matched_objects": 4,
+      "scientific_data_exact": true
+    },
+    {
+      "figure": "4(b)",
+      "manuscript_include": "numerical_simulation/example2_fig4c.eps",
+      "eps_sha256": "942d15ad6ea0a1affbddbf09042d82d917e702cc6cfefd25d02365437423b7e5",
+      "numerical_figure_reference": "numerical_simulation/example2_fig4c.fig",
+      "numerical_figure_reference_sha256": "551e01dca0976de228e1d29da1baaff328a769ca8cdf11799d0a96fc5d30495f",
+      "repository_figure": "results/example2/example2_fig4c.fig",
+      "reference_objects": 4,
+      "exactly_matched_objects": 4,
+      "scientific_data_exact": true
+    }
+  ],
+  "all_scientific_figure_data_exact": true,
+  "scope": "MAT numerical values and native graphics arrays; manuscript EPS/PDF assembly was visually inspected. Byte-identical rendering is not claimed."
+}

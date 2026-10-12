@@ -1,0 +1,136 @@
+Condition,StrictMargin,Pass,K
+compact X,1,1,5
+own curvature,4.15,1,5
+finite Lipschitz bounds,5.31994253028155,1,5
+inner strong concavity,0.5,1,5
+proxy strong monotonicity,3.98207269889852,1,5
+connected graph,0.585786437626905,1,5
+gamma lower bound,63.694119745274,1,5
+Q_gamma positive definite,0.279014714905862,1,5
+alpha interval,8.35532262834837e-07,1,5
+beta interval,0.0225369120978476,1,5
+q_x contraction,1.16562904883821e-07,1,5
+q_z contraction,0.306239355331981,1,5
+tau interval,0.000806437036901397,1,5
+Theta_tau positive definite,7.57456264485765e-08,1,5
+strategic coverage,0.0106926766215636,1,5
+compact X,1,1,10
+own curvature,4.15,1,10
+finite Lipschitz bounds,5.31994253028155,1,10
+inner strong concavity,0.5,1,10
+proxy strong monotonicity,3.98207269889852,1,10
+connected graph,0.585786437626905,1,10
+gamma lower bound,63.694119745274,1,10
+Q_gamma positive definite,0.279014714905861,1,10
+alpha interval,8.35532262834837e-07,1,10
+beta interval,0.0225369120978476,1,10
+q_x contraction,1.16562904883821e-07,1,10
+q_z contraction,0.306239355331981,1,10
+tau interval,0.000806437036901397,1,10
+Theta_tau positive definite,7.57253539240812e-08,1,10
+strategic coverage,0.0106926766215636,1,10
+compact X,1,1,20
+own curvature,4.15,1,20
+finite Lipschitz bounds,5.31994253028155,1,20
+inner strong concavity,0.5,1,20
+proxy strong monotonicity,3.98207269889852,1,20
+connected graph,0.585786437626905,1,20
+gamma lower bound,63.694119745274,1,20
+Q_gamma positive definite,0.279014714905862,1,20
+alpha interval,8.35532262834837e-07,1,20
+beta interval,0.0225369120978476,1,20
+q_x contraction,1.16562904883821e-07,1,20
+q_z contraction,0.306239355331981,1,20
+tau interval,0.000806437036901397,1,20
+Theta_tau positive definite,7.56847810857081e-08,1,20
+strategic coverage,0.0106926766215636,1,20
+compact X,1,1,40
+own curvature,4.15,1,40
+finite Lipschitz bounds,5.31994253028155,1,40
+inner strong concavity,0.5,1,40
+proxy strong monotonicity,3.98207269889852,1,40
+connected graph,0.585786437626905,1,40
+gamma lower bound,63.694119745274,1,40
+Q_gamma positive definite,0.279014714905861,1,40
+alpha interval,8.35532262834837e-07,1,40
+beta interval,0.0225369120978476,1,40
+q_x contraction,1.16562904883821e-07,1,40
+q_z contraction,0.306239355331981,1,40
+tau interval,0.000806437036901397,1,40
+Theta_tau positive definite,7.56035245286006e-08,1,40
+strategic coverage,0.0106926766215636,1,40
+compact X,1,1,80
+own curvature,4.15,1,80
+finite Lipschitz bounds,5.31994253028155,1,80
+inner strong concavity,0.5,1,80
+proxy strong monotonicity,3.98207269889852,1,80
+connected graph,0.585786437626905,1,80
+gamma lower bound,63.694119745274,1,80
+Q_gamma positive definite,0.279014714905862,1,80
+alpha interval,8.35532262834837e-07,1,80
+beta interval,0.0225369120978476,1,80
+q_x contraction,1.16562904883821e-07,1,80
+q_z contraction,0.306239355331981,1,80
+tau interval,0.000806437036901397,1,80
+Theta_tau positive definite,7.54405701427131e-08,1,80
+strategic coverage,0.0106926766215636,1,80
+compact X,1,1,160
+own curvature,4.15,1,160
+finite Lipschitz bounds,5.31994253028155,1,160
+inner strong concavity,0.5,1,160
+proxy strong monotonicity,3.98207269889852,1,160
+connected graph,0.585786437626905,1,160
+gamma lower bound,63.694119745274,1,160
+Q_gamma positive definite,0.279014714905861,1,160
+alpha interval,8.35532262834837e-07,1,160
+beta interval,0.0225369120978476,1,160
+q_x contraction,1.16562904883821e-07,1,160
+q_z contraction,0.306239355331981,1,160
+tau interval,0.000806437036901397,1,160
+Theta_tau positive definite,7.51129148014161e-08,1,160
+strategic coverage,0.0106926766215636,1,160
+compact X,1,1,320
+own curvature,4.15,1,320
+finite Lipschitz bounds,5.31994253028155,1,320
+inner strong concavity,0.5,1,320
+proxy strong monotonicity,3.98207269889852,1,320
+connected graph,0.585786437626905,1,320
+gamma lower bound,63.694119745274,1,320
+Q_gamma positive definite,0.279014714905862,1,320
+alpha interval,8.35532262834837e-07,1,320
+beta interval,0.0225369120978476,1,320
+q_x contraction,1.16562904883821e-07,1,320
+q_z contraction,0.306239355331981,1,320
+tau interval,0.000806437036901397,1,320
+Theta_tau positive definite,7.44507742857763e-08,1,320
+strategic coverage,0.0106926766215636,1,320
+compact X,1,1,640
+own curvature,4.15,1,640
+finite Lipschitz bounds,5.31994253028155,1,640
+inner strong concavity,0.5,1,640
+proxy strong monotonicity,3.98207269889852,1,640
+connected graph,0.585786437626905,1,640
+gamma lower bound,63.694119745274,1,640
+Q_gamma positive definite,0.279014714905861,1,640
+alpha interval,8.35532262834837e-07,1,640
+beta interval,0.0225369120978476,1,640
+q_x contraction,1.16562904883821e-07,1,640
+q_z contraction,0.306239355331981,1,640
+tau interval,0.000806437036901397,1,640
+Theta_tau positive definite,7.31005578035231e-08,1,640
+strategic coverage,0.0106926766215636,1,640
+compact X,1,1,1280
+own curvature,4.15,1,1280
+finite Lipschitz bounds,5.31994253028155,1,1280
+inner strong concavity,0.5,1,1280
+proxy strong monotonicity,3.98207269889852,1,1280
+connected graph,0.585786437626905,1,1280
+gamma lower bound,63.694119745274,1,1280
+Q_gamma positive definite,0.279014714905862,1,1280
+alpha interval,8.35532262834837e-07,1,1280
+beta interval,0.0225369120978476,1,1280
+q_x contraction,1.16562904883821e-07,1,1280
+q_z contraction,0.306239355331981,1,1280
+tau interval,0.000806437036901397,1,1280
+Theta_tau positive definite,7.03095031056096e-08,1,1280
+strategic coverage,0.0106926766215636,1,1280

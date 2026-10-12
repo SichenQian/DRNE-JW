@@ -1,0 +1,1321 @@
+{
+  "figureCount": 11,
+  "figures": [
+    {
+      "referenceFile": "results/example1/example1_fig1a.fig",
+      "generatedFile": "example1/example1_fig1a.fig",
+      "referenceObjects": 12,
+      "generatedObjects": 12,
+      "exactlyMatchedObjects": 12,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example1/example1_fig1b.fig",
+      "generatedFile": "example1/example1_fig1b.fig",
+      "referenceObjects": 3,
+      "generatedObjects": 3,
+      "exactlyMatchedObjects": 3,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example1/example1_fig1c.fig",
+      "generatedFile": "example1/example1_fig1c.fig",
+      "referenceObjects": 104,
+      "generatedObjects": 104,
+      "exactlyMatchedObjects": 104,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 83,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 1082,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 541,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example1/example1_fig1d.fig",
+      "generatedFile": "example1/example1_fig1d.fig",
+      "referenceObjects": 2,
+      "generatedObjects": 2,
+      "exactlyMatchedObjects": 2,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 46,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example2/example2_fig3a.fig",
+      "generatedFile": "example2/example2_fig3a.fig",
+      "referenceObjects": 3,
+      "generatedObjects": 3,
+      "exactlyMatchedObjects": 3,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 9,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 9,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 18,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example2/example2_fig3b.fig",
+      "generatedFile": "example2/example2_fig3b.fig",
+      "referenceObjects": 2,
+      "generatedObjects": 2,
+      "exactlyMatchedObjects": 2,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "errorbar",
+          "points": 9,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example2/example2_fig3c.fig",
+      "generatedFile": "example2/example2_fig3c.fig",
+      "referenceObjects": 3,
+      "generatedObjects": 3,
+      "exactlyMatchedObjects": 3,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 2,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 9,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 18,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example2/example2_fig4a.fig",
+      "generatedFile": "example2/example2_fig4a.fig",
+      "referenceObjects": 4,
+      "generatedObjects": 4,
+      "exactlyMatchedObjects": 4,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 1,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 1,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 7,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 8,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example2/example2_fig4b.fig",
+      "generatedFile": "example2/example2_fig4b.fig",
+      "referenceObjects": 2,
+      "generatedObjects": 2,
+      "exactlyMatchedObjects": 2,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 6,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 12,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example2/example2_fig4c.fig",
+      "generatedFile": "example2/example2_fig4c.fig",
+      "referenceObjects": 4,
+      "generatedObjects": 4,
+      "exactlyMatchedObjects": 4,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 1,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 1,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 7,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "line",
+          "points": 8,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    },
+    {
+      "referenceFile": "results/example2/example2_fig4d.fig",
+      "generatedFile": "example2/example2_fig4d.fig",
+      "referenceObjects": 58,
+      "generatedObjects": 58,
+      "exactlyMatchedObjects": 58,
+      "allReferenceObjectsExact": true,
+      "allObjectsExact": true,
+      "maxAbsoluteDifference": 0,
+      "objects": [
+        {
+          "type": "line",
+          "points": 1,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        },
+        {
+          "type": "patch",
+          "points": 4,
+          "exact": true,
+          "maxAbsoluteDifference": 0
+        }
+      ]
+    }
+  ],
+  "allReferenceObjectsExact": true,
+  "allGraphicsDataExact": true
+}

@@ -7,6 +7,9 @@ rng(260826, 'twister');
 scriptDir = fileparts(mfilename('fullpath'));
 if isempty(scriptDir), scriptDir = pwd; end
 outDir = fullfile(scriptDir, 'results', 'example1');
+if ~isempty(getenv('DRNE_RESULTS_DIR'))
+    outDir = fullfile(getenv('DRNE_RESULTS_DIR'), 'example1');
+end
 if ~isfolder(outDir)
     mkdir(outDir);
 end
@@ -354,6 +357,15 @@ results.certificatePlotted = false;
 results.mainOdeRuntimeSeconds = mainOdeRuntime;
 results.figureFiles = figureFiles;
 results.figureResolutionDpi = figureResolutionDpi;
+results.initialization = struct('masterSeed',260826,'generator','twister', ...
+    'mainStateSeed',101,'X0',X0,'z0',z0,'integratedInitialState',y(1,:).', ...
+    'stateOrder','X(:) in MATLAB column order, followed by stacked inner states z', ...
+    'additionalStateSeeds',initialConditionSeeds);
+results.solverSettings = struct('name','ode15s','RelTol',odeget(odeOpts,'RelTol'), ...
+    'AbsTol',odeget(odeOpts,'AbsTol'),'MaxStep',odeget(odeOpts,'MaxStep'), ...
+    'timeInterval',[t(1),t(end)],'outputSamples',numel(t), ...
+    'proxyTolerance',2e-11,'proxyMaximumIterations',20000, ...
+    'referenceTolerance',2e-10,'referenceMaximumSweeps',120);
 save(fullfile(outDir, 'example1_results.mat'), 'results', '-v7.3');
 
 fprintf('\nExample 1 completed.\n');

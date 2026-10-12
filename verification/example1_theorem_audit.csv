@@ -1,0 +1,20 @@
+Condition,Value,StrictMargin,Pass
+compact strategy sets,1,1,1
+positive own-decision curvature,3.9,3.9,1
+finite gradient Lipschitz bounds,6.09993956211371,4.99658916662157,1
+inner strong concavity player 1,19.3593835002569,0.5,1
+inner strong concavity player 2,20.3459951948802,0.5,1
+inner strong concavity player 3,18.3783020131637,0.5,1
+inner strong concavity player 4,19.7487545041993,0.5,1
+proxy strong monotonicity analytical certificate,3.61797649820882,3.61797649820882,1
+communication graph connected,2,2,1
+gamma theorem lower bound,41.0687482105322,19.3202084393296,1
+Q_gamma positive definite,0.518155811223492,0.518155811223492,1
+alpha theorem interval,1.61089495044328e-05,1.61089495044328e-05,1
+beta theorem interval,0.0251456149650622,0.0251456149650622,1
+q_x contraction,0.999995826518392,4.17348160819397e-06,1
+q_z contraction,0.733393682728014,0.266606317271986,1
+tau theorem interval,0.00134709448756911,0.00134709448756911,1
+Theta_tau positive definite,2.70976490332849e-06,2.70976490332849e-06,1
+strategic coverage condition,0.168,0.00800000000000001,1
+positive radii for attained fixed-dual semidual,0.0556109098470387,0.0556109098470387,1
